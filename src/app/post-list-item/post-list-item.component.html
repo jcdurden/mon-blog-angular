@@ -1,9 +1,10 @@
-<li [ngClass]="{'list-group-item': true,
+<!--<li [ngClass]="{'list-group-item': true,
                 'list-group-item-success': post.loveIts > 0,
                 'list-group-item-danger': post.loveIts < 0 }" >
     <span>{{ post.created_at | date: 'dd/MM/yyyy, h:mm a' }}</span>
     <h4>{{ post.title }}</h4>
     <p>{{ post.content }}</p>
-    <button class="btn btn-success" (click)="increaseLoveIts()">Love it</button>
-    <button class="btn btn-danger" (click)="decreaseLoveIts()">Don't Love it</button>
-</li>
+    <button class="btn btn-success" (click)="onIncreaseLoveIts(index)">Love it</button>
+    <button class="btn btn-danger" (click)="onDecreaseLoveIts(index)">Don't Love it</button>
+    <button class="btn btn-danger pull-right" (click)="onDelete(index)">Supprimer</button>
+</li>-->
