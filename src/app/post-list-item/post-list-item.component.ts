@@ -10,8 +10,8 @@ import { PostsService } from '../services/posts.service';
 export class PostListItemComponent implements OnInit {
 
   // post
-  //@Input() post: Post;
-  //@Input() index: number;
+  @Input() post: Post;
+  @Input() index: number;
 
   constructor(private postsService: PostsService) { }
 
